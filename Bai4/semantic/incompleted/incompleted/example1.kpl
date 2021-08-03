@@ -1,0 +1,26 @@
+Program Example1; (* Example 1 *)
+
+const dc = 21.9;
+      tr = "hello";
+      ch = 'A';
+var i : integer;
+    v2 : Array(. 10 .) of integer;
+    v3 : Array(. 10 .) of double;
+    d : double;
+    c : char;
+    s : string;
+
+Begin
+    d, i, d:=i,5*6,2+3;
+
+    do
+      while i>0
+      do
+        i:=i+1
+    while i<100;
+    d := 2+2+2+2+2-2*i-2.5;
+
+    i := v2(. 2 .);
+    v3(. 1 .) := v2(. 2 .);
+
+End. (* Example 1 *)

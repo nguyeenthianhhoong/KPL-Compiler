@@ -1,0 +1,23 @@
+Program Example2; (* Factorial *)
+   
+Var n : Integer;
+    I : Integer;
+    S : String;
+    A : Array(.5.) of Integer;
+
+Function F(n : Integer) : Integer;
+  Begin
+    F := N % 4;
+  End;
+
+Begin
+  s := "hello";
+  
+  DO
+    WHILE n = 4 DO
+      BEGIN
+       I := I + 1;
+       S := S + A(.I.);
+      END
+  WHILE I < N 
+End. (* Factorial *)

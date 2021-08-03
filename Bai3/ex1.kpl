@@ -1,0 +1,32 @@
+(*
+1. Nhập vào một mảng 10 số nguyên 
+2. Tìm phần tử nhỏ nhất và in ra màn hình
+3. Kiểm tra xem các phần tử của mảng có khác nhau hay không
+*)
+PROGRAM ex1;
+VAR arr: ARRAY(.10.) OF INTEGER;
+    i : INTEGER;
+    j : INTEGER;
+    min: INTEGER;
+    diff: INTEGER;
+
+
+BEGIN 
+    FOR i := 0 TO 9 DO
+        BEGIN 
+            arr(.i.) := READI;
+        END
+    min := arr(.0.);
+
+    FOR i := 1 TO 9 DO
+        IF min < arr(.i.) THEN min = arr(.i.);
+    CALL WRITEI(min);
+    CALL WRITELN;
+
+    diff := 1;
+    FOR i := 0 TO 9 DO
+        FOR j :=0 TO i DO
+            IF arr(.i.) == arr(.j.) THEN diff :=0
+    CALL WRITEI(diff);
+    CALL WRITELN;
+END.

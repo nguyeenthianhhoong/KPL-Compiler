@@ -1,0 +1,5 @@
+Program Example1; (* Example 1 *)
+Begin 1234.5 'c'
+"string" .9.9
+.8 .0
+End. (* Example 1 *) "str

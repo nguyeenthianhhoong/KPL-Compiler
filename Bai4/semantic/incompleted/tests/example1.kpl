@@ -1,0 +1,31 @@
+Program Example1; (* Example 1 *)
+
+const dc = 2101.8;
+      str = "tran thi thu hien 20184095";
+      tr = "thuc hanh chuong trinh dich";
+      ch = 'A';
+var i : integer;
+    i2 : integer;
+    i3 : integer;
+    d : double;
+    c : char;
+    s : string;
+Begin
+    d, i, d:=i,5*6,2+3;
+    do 
+      do
+        do
+          i:=i+1
+        while i<50
+      while i>0
+    while i<100;
+
+    do
+      while i>0
+      do
+        i:=i+1
+    while i<100;
+    d := 2+2+2+2+2-2*i-2.5;
+    if i<d then i :=  2 +2;
+    FOR d := i to 2.5 do i:=1;
+End. (* Example 1 *)
